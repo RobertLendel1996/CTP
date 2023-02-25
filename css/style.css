@@ -2712,7 +2712,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .tabs-products {
-    height: 66.5625rem;
+    min-height: 66.5625rem;
   }
 
   .tabs-products_title:not(:last-child) {
@@ -3103,7 +3103,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .tabs-products {
-    height: 64.375rem;
+    min-height: 64.375rem;
   }
 
   .tabs-products_title:not(:last-child) {
@@ -4023,15 +4023,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (height: clamp( 64.375rem , 63.6381578947rem  +  3.6842105263vw , 66.5625rem )) {
+@supports (min-height: clamp( 64.375rem , 63.6381578947rem  +  3.6842105263vw , 66.5625rem )) {
     .tabs-products {
-      height: clamp( 64.375rem , 63.6381578947rem  +  3.6842105263vw , 66.5625rem );
+      min-height: clamp( 64.375rem , 63.6381578947rem  +  3.6842105263vw , 66.5625rem );
     }
 }
 
-@supports not (height: clamp( 64.375rem , 63.6381578947rem  +  3.6842105263vw , 66.5625rem )) {
+@supports not (min-height: clamp( 64.375rem , 63.6381578947rem  +  3.6842105263vw , 66.5625rem )) {
     .tabs-products {
-      height: calc(64.375rem + 2.1875 * (100vw - 20rem) / 59.375);
+      min-height: calc(64.375rem + 2.1875 * (100vw - 20rem) / 59.375);
     }
 }
 
