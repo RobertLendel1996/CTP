@@ -2604,7 +2604,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     position: absolute;
     top: 0;
     width: 10.75rem;
-    height: 100vh;
+    height: 200vh;
     -webkit-transform: translate(0px, -30%);
         -ms-transform: translate(0px, -30%);
             transform: translate(0px, -30%);
